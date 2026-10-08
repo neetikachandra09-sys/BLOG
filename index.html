@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Blog</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                My Blog
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div
+                class="collapse navbar-collapse"
+                id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#articles">
+                            Articles
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-center">
+
+        <div class="container">
+
+            <h1>Welcome to My Blog</h1>
+
+            <p>
+                Explore articles about technology,
+                education and creativity.
+            </p>
+
+            <a href="#articles" class="btn btn-light">
+                Explore Articles
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Articles -->
+    <section id="articles" class="container my-5">
+
+        <h2 class="text-center mb-4">
+            Latest Articles
+        </h2>
+
+        <div class="row g-4">
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card h-100 shadow">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=70"
+                        class="card-img-top"
+                        alt="Technology">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Future of Technology
+                        </h3>
+
+                        <p class="card-text">
+                            Technology is changing the way
+                            people work and communicate.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card h-100 shadow">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=70"
+                        class="card-img-top"
+                        alt="Learning">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Importance of Learning
+                        </h3>
+
+                        <p class="card-text">
+                            Continuous learning helps people
+                            develop knowledge and skills.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card h-100 shadow">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=70"
+                        class="card-img-top"
+                        alt="Creative workspace">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Creative Ideas
+                        </h3>
+
+                        <p class="card-text">
+                            Creativity helps us find new
+                            solutions to everyday problems.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about-section py-5">
+
+        <div class="container text-center">
+
+            <h2>About My Blog</h2>
+
+            <p>
+                This blog shares useful information about
+                technology, education and creativity.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="container my-5">
+
+        <h2 class="text-center mb-4">
+            Contact Us
+        </h2>
+
+        <form>
+
+            <div class="mb-3">
+
+                <label for="name" class="form-label">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name">
+
+            </div>
+
+
+            <div class="mb-3">
+
+                <label for="email" class="form-label">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your email">
+
+            </div>
+
+
+            <div class="mb-3">
+
+                <label for="message" class="form-label">
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    class="form-control"
+                    rows="5"
+                    placeholder="Enter your message">
+                </textarea>
+
+            </div>
+
+            <button class="btn btn-primary">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4">
+
+        <p class="mb-0">
+            © 2026 My Blog Website
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
